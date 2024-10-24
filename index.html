@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numratori i Bizneseve të Kosovës</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="header-content">
+                <i class="fas fa-address-book app-icon"></i>
+                <h1>Numratori i Bizneseve të Kosovës</h1>
+            </div>
+        </header>
+        <main>
+            <form id="searchForm" class="search-form">
+                <label for="searchInput" class="visually-hidden">Shkruani emrin e biznesit, qytetin, numrin e telefonit ose email-in</label>
+                <input type="text" id="searchInput" placeholder="Shkruani emrin e biznesit, qytetin, numrin e telefonit ose email-in" required>
+                <button type="submit"><i class="fas fa-search" aria-hidden="true"></i> <span class="visually-hidden">Kërko</span>Kërko</button>
+            </form>
+            <div id="results" class="results"></div>
+            <div class="pagination" id="pagination"></div>
+        </main>
+        <footer>
+            <div class="footer-logos">
+                <img src="/images/postierixyzlogo.png" alt="Logoja e Zhvilluesit" class="logo">
+                <img src="/images/arbklogo.png" alt="Logoja e ARBK" class="logo">
+                <img src="/images/Alephoccrplogo.jpeg" alt="Logoja e Aleph OCCRP" class="logo">
+            </div>
+            <p>&copy; 2024 Numratori i Bizneseve të Kosovës. Të gjitha të drejtat e rezervuara ~ postieri.xyz L.L.C.</p>
+        </footer>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
