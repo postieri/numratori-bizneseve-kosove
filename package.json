@@ -17,7 +17,7 @@
       "aleph",
       "api"
     ],
-    "author": "Your Name",
+    "author": "Luan Kerleshi - postieri XYZ L.L.C.",
     "license": "MIT",
     "dependencies": {
       "express": "^4.17.1"
@@ -27,6 +27,6 @@
       "sass": "^1.62.1"
     },
     "engines": {
-      "node": "22.x"
+      "node": "20.x"
     }
   }
